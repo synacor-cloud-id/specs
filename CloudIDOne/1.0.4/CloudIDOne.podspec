@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks     = 'CloudIDOne.framework'
   s.license                 = { :type => 'Internal',
                                 :text => "Copyright 2017 Synacor Inc. All rights reserved." }
-  s.source                  = { :http => "https://github.com/synacor-cloud-id/cloud-id-one/blob/dev/cloud-id-one/1.0.4/CloudIDOne.framework.zip?raw=true" }
+  s.source                  = { :http => "https://github.com/synacor-cloud-id/cloud-id-one-versions/blob/dev/cloud-id-one/1.0.4/CloudIDOne.framework.zip?raw=true" }
   s.summary                 = 'Synacor Cloud ID login SDK with combined support for SSO and Web login mechanisms'
 
   s.dependency 'XCGLogger',      '~> 4.0'
